@@ -1,0 +1,1011 @@
+Manufacturer: Micro-Star International Co., Ltd.
+Model: Katana GF76 12UC
+Name: MSI
+NumberOfProcessors: 1
+SystemType: x64-based PC
+SystemFamily: GF
+System: Windows
+Node Name: MSI
+Release: 11
+Version: 10.0.22631
+Machine: AMD64
+Processor: Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+User: MSI
+
+Memory Info:
+Total: 16866459648
+Available: 8944017408
+Used: 7922442240
+Free: 8944017408
+Percentage: 47.0
+
+Disk Info:
+Total: 511317110784
+Used: 306349318144
+Free: 204967792640
+Percentage: 59.9
+
+Battery Info:
+Percentage: 100%
+Plugged in: True
+
+Running Processes:
+
+Process ID: 0
+Name: System Idle Process
+
+Process ID: 4
+Name: System
+
+Process ID: 140
+Name:
+
+Process ID: 208
+Name: Registry
+
+Process ID: 712
+Name: smss.exe
+
+Process ID: 796
+Name: csrss.exe
+
+Process ID: 824
+Name: svchost.exe
+
+Process ID: 960
+Name: conhost.exe
+
+Process ID: 968
+Name: wininit.exe
+
+Process ID: 988
+Name: csrss.exe
+
+Process ID: 1060
+Name: services.exe
+
+Process ID: 1080
+Name: LsaIso.exe
+
+Process ID: 1096
+Name: lsass.exe
+
+Process ID: 1120
+Name: svchost.exe
+
+Process ID: 1164
+Name: winlogon.exe
+
+Process ID: 1220
+Name: svchost.exe
+
+Process ID: 1284
+Name: svchost.exe
+
+Process ID: 1320
+Name: fontdrvhost.exe
+
+Process ID: 1328
+Name: fontdrvhost.exe
+
+Process ID: 1384
+Name: WUDFHost.exe
+
+Process ID: 1460
+Name: svchost.exe
+
+Process ID: 1520
+Name: svchost.exe
+
+Process ID: 1600
+Name: dwm.exe
+
+Process ID: 1660
+Name: backgroundTaskHost.exe
+
+Process ID: 1716
+Name: backgroundTaskHost.exe
+
+Process ID: 1724
+Name: svchost.exe
+
+Process ID: 1732
+Name: svchost.exe
+
+Process ID: 1740
+Name: ipf_helper.exe
+
+Process ID: 1748
+Name: svchost.exe
+
+Process ID: 1760
+Name: svchost.exe
+
+Process ID: 1800
+Name: svchost.exe
+
+Process ID: 1820
+Name: opera.exe
+
+Process ID: 1840
+Name: svchost.exe
+
+Process ID: 1884
+Name: svchost.exe
+
+Process ID: 1896
+Name: svchost.exe
+
+Process ID: 1952
+Name: opera.exe
+
+Process ID: 1992
+Name: msedgewebview2.exe
+
+Process ID: 1996
+Name: svchost.exe
+
+Process ID: 2024
+Name: svchost.exe
+
+Process ID: 2092
+Name: svchost.exe
+
+Process ID: 2252
+Name: svchost.exe
+
+Process ID: 2264
+Name: svchost.exe
+
+Process ID: 2280
+Name: WUDFHost.exe
+
+Process ID: 2364
+Name: svchost.exe
+
+Process ID: 2456
+Name: IntelCpHDCPSvc.exe
+
+Process ID: 2512
+Name: svchost.exe
+
+Process ID: 2552
+Name: svchost.exe
+
+Process ID: 2616
+Name: backgroundTaskHost.exe
+
+Process ID: 2648
+Name: svchost.exe
+
+Process ID: 2668
+Name: svchost.exe
+
+Process ID: 2732
+Name: svchost.exe
+
+Process ID: 2752
+Name: MSIAPService.exe
+
+Process ID: 2784
+Name: svchost.exe
+
+Process ID: 2796
+Name: svchost.exe
+
+Process ID: 2888
+Name: svchost.exe
+
+Process ID: 3232
+Name: Code.exe
+
+Process ID: 3268
+Name: NVDisplay.Container.exe
+
+Process ID: 3280
+Name: svchost.exe
+
+Process ID: 3320
+Name: msedgewebview2.exe
+
+Process ID: 3324
+Name: svchost.exe
+
+Process ID: 3376
+Name: svchost.exe
+
+Process ID: 3396
+Name: opera.exe
+
+Process ID: 3408
+Name: svchost.exe
+
+Process ID: 3424
+Name: NVDisplay.Container.exe
+
+Process ID: 3472
+Name: svchost.exe
+
+Process ID: 3560
+Name: svchost.exe
+
+Process ID: 3568
+Name: svchost.exe
+
+Process ID: 3576
+Name: svchost.exe
+
+Process ID: 3632
+Name: SystemSettingsBroker.exe
+
+Process ID: 3640
+Name: WUDFHost.exe
+
+Process ID: 3668
+Name: MemCompression
+
+Process ID: 3744
+Name: svchost.exe
+
+Process ID: 3772
+Name: svchost.exe
+
+Process ID: 3780
+Name: svchost.exe
+
+Process ID: 3876
+Name: Telegram.exe
+
+Process ID: 3948
+Name: svchost.exe
+
+Process ID: 3952
+Name: OfficeClickToRun.exe
+
+Process ID: 3968
+Name: ipfsvc.exe
+
+Process ID: 4112
+Name: RuntimeBroker.exe
+
+Process ID: 4128
+Name: opera.exe
+
+Process ID: 4148
+Name: svchost.exe
+
+Process ID: 4172
+Name: svchost.exe
+
+Process ID: 4200
+Name: svchost.exe
+
+Process ID: 4264
+Name: SystemSettings.exe
+
+Process ID: 4308
+Name: backgroundTaskHost.exe
+
+Process ID: 4340
+Name: svchost.exe
+
+Process ID: 4388
+Name: msedgewebview2.exe
+
+Process ID: 4396
+Name: svchost.exe
+
+Process ID: 4468
+Name: svchost.exe
+
+Process ID: 4496
+Name: svchost.exe
+
+Process ID: 4552
+Name: MSIService.exe
+
+Process ID: 4652
+Name: spoolsv.exe
+
+Process ID: 4680
+Name: wlanext.exe
+
+Process ID: 4692
+Name: conhost.exe
+
+Process ID: 4700
+Name: ipf_uf.exe
+
+Process ID: 4708
+Name: svchost.exe
+
+Process ID: 4864
+Name: svchost.exe
+
+Process ID: 5056
+Name: svchost.exe
+
+Process ID: 5064
+Name: AdobeUpdateService.exe
+
+Process ID: 5076
+Name: OneApp.IGCC.WinService.exe
+
+Process ID: 5092
+Name: svchost.exe
+
+Process ID: 5100
+Name: nvcontainer.exe
+
+Process ID: 5116
+Name: svchost.exe
+
+Process ID: 5152
+Name: Sendevsvc.exe
+
+Process ID: 5160
+Name: WmiPrvSE.exe
+
+Process ID: 5192
+Name: MSI_Central_Service.exe
+
+Process ID: 5212
+Name: MSI_Companion_Service.exe
+
+Process ID: 5220
+Name: svchost.exe
+
+Process ID: 5260
+Name: VoiceControl_Service.exe
+
+Process ID: 5276
+Name: NahimicService.exe
+
+Process ID: 5352
+Name: svchost.exe
+
+Process ID: 5360
+Name: svchost.exe
+
+Process ID: 5420
+Name: svchost.exe
+
+Process ID: 5440
+Name: svchost.exe
+
+Process ID: 5448
+Name: WMIRegistrationService.exe
+
+Process ID: 5456
+Name: RtkAudUService64.exe
+
+Process ID: 5472
+Name: MsMpEng.exe
+
+Process ID: 5484
+Name: nvcontainer.exe
+
+Process ID: 5524
+Name: svchost.exe
+
+Process ID: 5544
+Name: svchost.exe
+
+Process ID: 5696
+Name: jhi_service.exe
+
+Process ID: 5784
+Name: Code.exe
+
+Process ID: 5788
+Name: svchost.exe
+
+Process ID: 5820
+Name: svchost.exe
+
+Process ID: 6348
+Name: msedgewebview2.exe
+
+Process ID: 6436
+Name: Code.exe
+
+Process ID: 6448
+Name: WmiPrvSE.exe
+
+Process ID: 6592
+Name: sihost.exe
+
+Process ID: 6692
+Name: svchost.exe
+
+Process ID: 6732
+Name: svchost.exe
+
+Process ID: 6832
+Name: svchost.exe
+
+Process ID: 6932
+Name: svchost.exe
+
+Process ID: 7024
+Name: svchost.exe
+
+Process ID: 7076
+Name: taskhostw.exe
+
+Process ID: 7100
+Name: OmApSvcBroker.exe
+
+Process ID: 7160
+Name: svchost.exe
+
+Process ID: 7232
+Name: WmiPrvSE.exe
+
+Process ID: 7488
+Name: MSI.CentralServer.exe
+
+Process ID: 7500
+Name: svchost.exe
+
+Process ID: 7584
+Name: NVIDIA Share.exe
+
+Process ID: 7632
+Name: SearchProtocolHost.exe
+
+Process ID: 7676
+Name: WmiPrvSE.exe
+
+Process ID: 7776
+Name: rundll32.exe
+
+Process ID: 7792
+Name: backgroundTaskHost.exe
+
+Process ID: 8032
+Name: NVIDIA Web Helper.exe
+
+Process ID: 8040
+Name: explorer.exe
+
+Process ID: 8116
+Name: conhost.exe
+
+Process ID: 8180
+Name: svchost.exe
+
+Process ID: 8268
+Name: Code.exe
+
+Process ID: 8292
+Name: svchost.exe
+
+Process ID: 8308
+Name: AggregatorHost.exe
+
+Process ID: 8400
+Name: svchost.exe
+
+Process ID: 8456
+Name: opera.exe
+
+Process ID: 8548
+Name: svchost.exe
+
+Process ID: 8616
+Name: msedgewebview2.exe
+
+Process ID: 8620
+Name: svchost.exe
+
+Process ID: 8704
+Name: svchost.exe
+
+Process ID: 8924
+Name: Code.exe
+
+Process ID: 8944
+Name: nvcontainer.exe
+
+Process ID: 8968
+Name: svchost.exe
+
+Process ID: 8984
+Name: ctfmon.exe
+
+Process ID: 9028
+Name: dllhost.exe
+
+Process ID: 9040
+Name: StartMenuExperienceHost.exe
+
+Process ID: 9064
+Name: powershell.exe
+
+Process ID: 9160
+Name: conhost.exe
+
+Process ID: 9196
+Name: SearchHost.exe
+
+Process ID: 9248
+Name: language_server_windows_x64.exe
+
+Process ID: 9308
+Name: Widgets.exe
+
+Process ID: 9360
+Name: RuntimeBroker.exe
+
+Process ID: 9568
+Name: MSI.TerminalServer.exe
+
+Process ID: 9604
+Name: RuntimeBroker.exe
+
+Process ID: 9692
+Name: svchost.exe
+
+Process ID: 9916
+Name: svchost.exe
+
+Process ID: 10228
+Name: Code.exe
+
+Process ID: 10268
+Name: svchost.exe
+
+Process ID: 10292
+Name: GameBarFTServer.exe
+
+Process ID: 10416
+Name: svchost.exe
+
+Process ID: 10460
+Name: backgroundTaskHost.exe
+
+Process ID: 10492
+Name: backgroundTaskHost.exe
+
+Process ID: 10692
+Name: svchost.exe
+
+Process ID: 10744
+Name: RuntimeBroker.exe
+
+Process ID: 10928
+Name: RuntimeBroker.exe
+
+Process ID: 10980
+Name: Windows.Media.BackgroundPlayback.exe
+
+Process ID: 11220
+Name: opera.exe
+
+Process ID: 11316
+Name: opera.exe
+
+Process ID: 11352
+Name: backgroundTaskHost.exe
+
+Process ID: 11484
+Name: LockApp.exe
+
+Process ID: 11604
+Name: VoiceControl_Engine.exe
+
+Process ID: 11612
+Name: RuntimeBroker.exe
+
+Process ID: 11788
+Name: svchost.exe
+
+Process ID: 11860
+Name: SearchIndexer.exe
+
+Process ID: 11924
+Name: svchost.exe
+
+Process ID: 11940
+Name: opera.exe
+
+Process ID: 12060
+Name: svchost.exe
+
+Process ID: 12128
+Name: ShellExperienceHost.exe
+
+Process ID: 12248
+Name: PhoneExperienceHost.exe
+
+Process ID: 12320
+Name: RuntimeBroker.exe
+
+Process ID: 12364
+Name: Code.exe
+
+Process ID: 12400
+Name: RuntimeBroker.exe
+
+Process ID: 12536
+Name: MiniBin.exe
+
+Process ID: 12596
+Name: svchost.exe
+
+Process ID: 12716
+Name: IGCCTray.exe
+
+Process ID: 12728
+Name: WidgetService.exe
+
+Process ID: 12856
+Name: LocationNotificationWindows.exe
+
+Process ID: 12948
+Name: RuntimeBroker.exe
+
+Process ID: 12968
+Name: NisSrv.exe
+
+Process ID: 13016
+Name: nvsphelper64.exe
+
+Process ID: 13036
+Name: NVIDIA Share.exe
+
+Process ID: 13056
+Name: opera.exe
+
+Process ID: 13080
+Name: TranslucentTB.exe
+
+Process ID: 13124
+Name: conhost.exe
+
+Process ID: 13240
+Name: IGCC.exe
+
+Process ID: 13324
+Name: Code.exe
+
+Process ID: 13352
+Name: opera.exe
+
+Process ID: 13652
+Name: backgroundTaskHost.exe
+
+Process ID: 13744
+Name: backgroundTaskHost.exe
+
+Process ID: 13748
+Name: GameBar.exe
+
+Process ID: 13780
+Name: conhost.exe
+
+Process ID: 13784
+Name: msedgewebview2.exe
+
+Process ID: 13824
+Name: NVIDIA Share.exe
+
+Process ID: 13868
+Name: dllhost.exe
+
+Process ID: 14032
+Name: TextInputHost.exe
+
+Process ID: 14056
+Name: backgroundTaskHost.exe
+
+Process ID: 14156
+Name: audiodg.exe
+
+Process ID: 14300
+Name: Start_HDR.exe
+
+Process ID: 14412
+Name: UserOOBEBroker.exe
+
+Process ID: 14696
+Name: NhNotifSys.exe
+
+Process ID: 14792
+Name: RuntimeBroker.exe
+
+Process ID: 14924
+Name: ApplicationFrameHost.exe
+
+Process ID: 15060
+Name: svchost.exe
+
+Process ID: 15092
+Name: svchost.exe
+
+Process ID: 15140
+Name: opera.exe
+
+Process ID: 15252
+Name: SecurityHealthService.exe
+
+Process ID: 15400
+Name: backgroundTaskHost.exe
+
+Process ID: 15512
+Name: svchost.exe
+
+Process ID: 15700
+Name: svchost.exe
+
+Process ID: 15788
+Name: powershell.exe
+
+Process ID: 15796
+Name: CCleaner64.exe
+
+Process ID: 16172
+Name: conhost.exe
+
+Process ID: 16176
+Name: backgroundTaskHost.exe
+
+Process ID: 16360
+Name: opera.exe
+
+Process ID: 16392
+Name: opera.exe
+
+Process ID: 16572
+Name: language_server_windows_x64.exe
+
+Process ID: 16616
+Name: backgroundTaskHost.exe
+
+Process ID: 16896
+Name: Code.exe
+
+Process ID: 17104
+Name: taskhostw.exe
+
+Process ID: 17164
+Name: opera.exe
+
+Process ID: 17172
+Name: opera.exe
+
+Process ID: 17228
+Name: opera.exe
+
+Process ID: 17356
+Name: opera_crashreporter.exe
+
+Process ID: 17632
+Name: opera.exe
+
+Process ID: 17680
+Name: opera.exe
+
+Process ID: 17792
+Name: opera.exe
+
+Process ID: 17828
+Name: Code.exe
+
+Process ID: 17916
+Name: opera.exe
+
+Process ID: 17980
+Name: powershell.exe
+
+Process ID: 18172
+Name: python.exe
+Version: 3.12.150.0
+Vendor: Python Software Foundation
+
+hline
+Version: 3.12.150.0
+Vendor: Python Software Foundation
+
+hline
+Version: 3.12.150.0
+Vendor: Python Software Foundation
+
+hline
+Version: 3.12.150.0
+Vendor: Python Software Foundation
+
+hline
+Version: 3.12.150.0
+Vendor: Python Software Foundation
+
+hline
+Version: 3.12.150.0
+Vendor: Python Software Foundation
+
+hline
+Version: 3.12.150.0
+Vendor: Python Software Foundation
+
+hline
+Version: 3.12.150.0
+Vendor: Python Software Foundation
+
+hline
+Version: 3.12.150.0
+Vendor: Python Software Foundation
+
+hline
+Version: 3.12.150.0
+Vendor: Python Software Foundation
+
+hline
+Version: 16.0.14332.20493
+Vendor: Microsoft Corporation
+
+hline
+Version: 16.0.14332.20461
+Vendor: Microsoft Corporation
+
+hline
+Version: 16.0.14332.20493
+Vendor: Microsoft Corporation
+
+hline
+Version: 4.0.20823.0
+Vendor: Microsoft Corporation
+
+hline
+Version: 9.0.21022
+Vendor: Microsoft Corporation
+
+hline
+Version: 10.0.40219
+Vendor: Microsoft Corporation
+
+hline
+Version: 12.0.40664
+Vendor: Microsoft Corporation
+
+hline
+Version: 10.0.40219
+Vendor: Microsoft Corporation
+
+hline
+Version: 14.36.32532
+Vendor: Microsoft Corporation
+
+hline
+Version: 12.0.40664
+Vendor: Microsoft Corporation
+
+hline
+Version: 1.0.0.0
+Vendor: Epic Games, Inc.
+
+hline
+Version: 8.0.3510.10
+Vendor: Oracle Corporation
+
+hline
+Version: 4.8.09037
+Vendor: Microsoft Corporation
+
+hline
+Version: 7.0.10
+Vendor: Oracle and/or its affiliates
+
+hline
+Version: 11.0.61030
+Vendor: Microsoft Corporation
+
+hline
+Version: 4.8.09037
+Vendor: Microsoft Corporation
+
+hline
+Vendor: None
+
+hline
+Version: 8.0.59192
+Vendor: Microsoft Corporation
+
+hline
+Version: 13.016.12025
+Vendor: Application
+
+hline
+Version: 12.0.40664
+Vendor: Microsoft Corporation
+
+hline
+Version: 14.36.32532
+Vendor: Microsoft Corporation
+
+hline
+Version: 10.1.18950.8297
+Vendor: Intel Corporation
+
+hline
+Version: 11.0.61030
+Vendor: Microsoft Corporation
+
+hline
+Version: 11.0.61030
+Vendor: Microsoft Corporation
+
+hline
+Version: 12.0.40664
+Vendor: Microsoft Corporation
+
+hline
+Version: 11.0.61030
+Vendor: Microsoft Corporation
+
+hline
+Version: 5.72.0.0
+Vendor: Microsoft Corporation
+
+hline
+Version: 14.36.32532
+Vendor: Microsoft Corporation
+
+hline
+Version: 14.36.32532
+Vendor: Microsoft Corporation
+
+hline
+Version: 2.8.351.10
+Vendor: Oracle Corporation
+
+hline
+Interface: Ethernet
+  IPv4 Address: 192.168.57.27
+  Netmask: 255.255.255.0
+  Broadcast IP: None
+  IPv6 Address: fe80::2794:3e19:1848:7082
+  Netmask: None
+Interface: Ethernet 2
+  IPv4 Address: 192.168.56.1
+  Netmask: 255.255.255.0
+  Broadcast IP: None
+  IPv6 Address: fe80::9585:e06a:fbd4:ceb0
+  Netmask: None
+Interface: Подключение по локальной сети
+  IPv4 Address: 169.254.41.18
+  Netmask: 255.255.0.0
+  Broadcast IP: None
+  IPv6 Address: fe80::a64f:11a8:a5fb:d89f
+  Netmask: None
+Interface: Подключение по локальной сети* 1
+  IPv4 Address: 169.254.209.29
+  Netmask: 255.255.0.0
+  Broadcast IP: None
+  IPv6 Address: fe80::c9e2:c944:e90f:d57b
+  Netmask: None
+Interface: Подключение по локальной сети* 2
+  IPv4 Address: 169.254.7.199
+  Netmask: 255.255.0.0
+  Broadcast IP: None
+  IPv6 Address: fe80::200b:5d6a:277e:f5e1
+  Netmask: None
+Interface: Беспроводная сеть
+  IPv4 Address: 192.168.59.75
+  Netmask: 255.255.255.0
+  Broadcast IP: None
+  IPv6 Address: fe80::8105:d383:7f26:8afd
+  Netmask: None
+Interface: Сетевое подключение Bluetooth
+  IPv4 Address: 169.254.211.207
+  Netmask: 255.255.0.0
+  Broadcast IP: None
+  IPv6 Address: fe80::5250:e94d:bd70:c257
+  Netmask: None
+Interface: Loopback Pseudo-Interface 1
+  IPv4 Address: 127.0.0.1
+  Netmask: 255.0.0.0
+  Broadcast IP: None
+  IPv6 Address: ::1
+  Netmask: None
+Monitor(x=0, y=0, width=1920, height=1080, width_mm=382, height_mm=215, name='\\\\.\\DISPLAY1', is_primary=True)
