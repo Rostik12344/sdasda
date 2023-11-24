@@ -8,7 +8,7 @@ import screeninfo
 from screeninfo import get_monitors
 
 
-
+#Информация о системе
 c = wmi.WMI()
 my_system = c.Win32_ComputerSystem()[0]
 print(f"Manufacturer: {my_system.Manufacturer}")
@@ -18,6 +18,7 @@ print(f"NumberOfProcessors: {my_system.NumberOfProcessors}")
 print(f"SystemType: {my_system.SystemType}")
 print(f"SystemFamily: {my_system.SystemFamily}")
 
+#Системная информация
 system_info = platform.uname()
 print(f"System:", system_info.system)
 print(f"Node Name:", system_info.node)
@@ -26,9 +27,11 @@ print(f"Version:", system_info.version)
 print(f"Machine:", system_info.machine)
 print(f"Processor:", system_info.processor)
 
+#Наименование пользователя
 user = platform.uname().node
 print(f"User:", user)
 
+#Информация о памяти
 memory_info = psutil.virtual_memory()
 print("\nMemory Info:")
 print("Total:", memory_info.total)
@@ -37,6 +40,7 @@ print("Used:", memory_info.used)
 print("Free:", memory_info.free)
 print("Percentage:", memory_info.percent)
 
+#Информация о жестком диске
 disk_info = psutil.disk_usage('/')
 print("\nDisk Info:")
 print("Total:", disk_info.total)
@@ -44,6 +48,7 @@ print("Used:", disk_info.used)
 print("Free:", disk_info.free)
 print("Percentage:", disk_info.percent)
 
+#Информация о батарее(ноутбук)
 battery_info = psutil.sensors_battery()
 print("\nBattery Info:")
 if battery_info:
@@ -51,14 +56,15 @@ if battery_info:
     print(f"Percentage: {percent}%")
     plugged = battery_info.power_plugged
     print(f"Plugged in: {plugged}")
-    
+
+#Информация о запущенных процессах     
 process_info = psutil.process_iter()
 print("\nRunning Processes:")
 for process in process_info:
     print(f"\nProcess ID: {process.pid}")
     print(f"Name: {process.name()}")
 
-
+#Установленные программы
 w = wmi.WMI()
 for p in w.Win32_Product():
     if p.Version is not None:        
@@ -67,12 +73,11 @@ for p in w.Win32_Product():
     (f"Caption: {p.Caption}")
     print("\nhline")
     
+#Информация о интернете
 def get_tcpip_config():  
     interfaces = psutil.net_if_addrs() 
-
     for interface, addresses in interfaces.items(): 
         print(f"Interface: {interface}") 
- 
         for address in addresses: 
             if address.family == socket.AF_INET: 
                 print(f"  IPv4 Address: {address.address}") 
@@ -85,7 +90,7 @@ def get_tcpip_config():
 
 get_tcpip_config()
  
-
+#Информация о мониторе
 for m in get_monitors():
     print(str(m))
 
