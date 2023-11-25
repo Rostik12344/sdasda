@@ -8,45 +8,12 @@ import screeninfo
 from screeninfo import get_monitors
 from tabulate import tabulate
 import hashlib
-
-# База данных пользователя 
-user_database = {
-    "Буянов Ростислав Артемович": "6394b2c299ce99e4b30a354067011804", # 82723 MD5 хеш пароля
-    "user2Б": "4b4becf28a5936f5e7cfb66e089c9f59",  #22834 MD5 хеш пароля
-    "user00": "86de77ac74126c75c2d2011f7a845959",  #76352 MD5 хеш пароля
-    "user-": "c3eb2528840ec195a9ceae3171650780", #05725 MD5 хеш пароля
-    "user228": "41bebf6a6be8fced8d8e6b0c773eed4c", #26432 MD5 хеш пароля
-    "user15": "2c7b18e387e5d3a2dbbae05fc7e740ef", #96936 MD5 хеш пароля
-    "user+": "4d0a38583756e8f16d9cc9cd93465599", #55234 MD5 хеш пароля
-    "user-+": "c03b3b28a9d9e31610056758ea384f1a", #018822 MD5 хеш пароля
-}
-
-def save_user(username, password):
-    # Хэшировать пароль перед сохранением в базу данных
-    hashed_password = hashlib.md5(password.encode()).hexdigest()
-    user_database[username] = hashed_password
+import GPUtil
+import sys
 
 
-def login():
-    while True:
-        # Запросить у пользователя логин и пароль
-        username = input("Введите логин: ")
-        password = input("Введите пароль: ")
-
-        # Проверить, существует ли пользователь и совпадает ли хэшированный пароль
-        if username in user_database and user_database[username] == hashlib.md5(password.encode()).hexdigest():
-            print("Вход выполнен успешно!")
-            break
-        else:
-            print("Неверный логин или пароль. Попробуйте снова.")
-
-# Вызов функции входа
-login()
-
-
-#Ввод данный пользователя ФИО
-Name = input("Введите Ф.И.О. : ")
-
+print(f"Запускаем сканирование компьютера")
+    
 # Получение IP-адреса пользователя
 def get_user_ip():
     try:
@@ -64,7 +31,7 @@ def get_user_ip():
 # Вывод IP-адреса пользователя
 ip_address = get_user_ip()
 if ip_address:
-    print(Name, "/ IP Address:", ip_address)
+    print(" IP Address:", ip_address)
 else:
     print("Failed to retrieve IP address.")
 
@@ -72,12 +39,12 @@ else:
 #Информация о системе
 c = wmi.WMI()
 my_system = c.Win32_ComputerSystem()[0]
-print(f" Manufacturer: {my_system.Manufacturer}")
-print(f" Model: {my_system.Model}")
-print(f" Name: {my_system.Name}")
-print(f" NumberOfProcessors: {my_system.NumberOfProcessors}")
-print(f" SystemType: {my_system.SystemType}")
-print(f" SystemFamily: {my_system.SystemFamily}")
+print("Manufacturer: {my_system.Manufacturer}")
+print(f"Model: {my_system.Model}")
+print(f"Name: {my_system.Name}")
+print(f"NumberOfProcessors: {my_system.NumberOfProcessors}")
+print(f"SystemType: {my_system.SystemType}")
+print(f"SystemFamily: {my_system.SystemFamily}")
 
 #Системная информация
 system_info = platform.uname()
@@ -100,6 +67,30 @@ print("  Available:", memory_info.available)
 print("  Used:", memory_info.used)
 print("  Free:", memory_info.free)
 print("  Percentage:", memory_info.percent)
+
+#Информация видеоадаптера
+def gpu_info():
+    gpus = GPUtil.getGPUs()
+    gpus_list = []
+
+    for gpu in gpus:
+        gpu_id = gpu.id
+        gpu_name = gpu.name
+        gpu_load = f'{gpu.load * 100}%'
+        gpu_free_memory = f'{gpu.memoryFree}MB'
+        gpu_used_memory = f'{gpu.memoryUsed}MB'
+        gpu_total_memory = f'{gpu.memoryTotal}MB'
+        gpu_temp = f'{gpu.temperature}'
+
+        gpus_list.append((gpu_id, gpu_name, gpu_load, gpu_free_memory, gpu_used_memory, gpu_total_memory, gpu_temp))
+
+    return str(
+        tabulate(gpus_list, headers=('id', 'name', 'load', 'free memory', 'used memory', 'total memory', 'temperature'),
+                 tablefmt='pretty'))
+
+
+if __name__ == '__main__':
+    print(gpu_info())
 
 #Информация о жестком диске
 disk_info = psutil.disk_usage('/')
