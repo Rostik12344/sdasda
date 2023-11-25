@@ -1,12 +1,47 @@
 import wmi
 import platform
 import psutil
-import subprocess 
+import subprocess
 import re
 import socket
 import screeninfo
 from screeninfo import get_monitors
+from tabulate import tabulate
+import hashlib
 
+# База данных пользователя 
+user_database = {
+    "Буянов Ростислав Артемович": "6394b2c299ce99e4b30a354067011804", # 82723 MD5 хеш пароля
+    "user2Б": "4b4becf28a5936f5e7cfb66e089c9f59",  #22834 MD5 хеш пароля
+    "user00": "86de77ac74126c75c2d2011f7a845959",  #76352 MD5 хеш пароля
+    "user-": "c3eb2528840ec195a9ceae3171650780", #05725 MD5 хеш пароля
+    "user228": "41bebf6a6be8fced8d8e6b0c773eed4c", #26432 MD5 хеш пароля
+    "user15": "2c7b18e387e5d3a2dbbae05fc7e740ef", #96936 MD5 хеш пароля
+    "user+": "4d0a38583756e8f16d9cc9cd93465599", #55234 MD5 хеш пароля
+    "user-+": "c03b3b28a9d9e31610056758ea384f1a", #018822 MD5 хеш пароля
+}
+
+def save_user(username, password):
+    # Хэшировать пароль перед сохранением в базу данных
+    hashed_password = hashlib.md5(password.encode()).hexdigest()
+    user_database[username] = hashed_password
+
+
+def login():
+    while True:
+        # Запросить у пользователя логин и пароль
+        username = input("Введите логин: ")
+        password = input("Введите пароль: ")
+
+        # Проверить, существует ли пользователь и совпадает ли хэшированный пароль
+        if username in user_database and user_database[username] == hashlib.md5(password.encode()).hexdigest():
+            print("Вход выполнен успешно!")
+            break
+        else:
+            print("Неверный логин или пароль. Попробуйте снова.")
+
+# Вызов функции входа
+login()
 
 
 #Ввод данный пользователя ФИО
@@ -85,7 +120,7 @@ if battery_info:
 
 #Информация о запущенных процессах     
 process_info = psutil.process_iter()
-print("\nRunning Processes:")
+print("Running Processes:")
 for process in process_info:
     print(f"\nProcess ID: {process.pid}")
     print(f"  Name: {process.name()}")
@@ -99,6 +134,7 @@ for p in w.Win32_Product():
     (f"Caption: {p.Caption}")
     print("\nhline")
     
+
 #Информация о интернете
 def get_tcpip_config():  
     interfaces = psutil.net_if_addrs() 
@@ -127,4 +163,3 @@ processor_serial = None
 if platform.system() == 'Windows':
     processor_serial = platform.win32_edition()
     print(f"Серийный номер процессора:", processor_serial)
-
